@@ -169,7 +169,7 @@ end)
 
 ### Signals (Server-to-Client)
 
-We should also create a signal that we can fire events for the clients when their points change. We can use `Knit:CreateSignal()` to indicate we want a signal created for the service.
+We should also create a signal that we can fire events for the clients when their points change. We can use `Knit.CreateSignal()` to indicate we want a signal created for the service.
 
 ```lua
 local PointsService = Knit.CreateService {
